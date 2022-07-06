@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title> segunda tentativa </title>
+            <meta charset="utf-8"/>
+            <link rel="Stylesheet" href="p.css"/>
+            <script src="p.js"></script>
+        </head>
+        <body>
+            <div id="container">
+                <div>
+                    Experiência Profissional (em anos): <input type="number" id="ex"/>
+                </div>
+                <p> Linguagem na Qual você domina: <p></p>
+                <div>
+                    <select name="linguagem" id="li">
+                        <option value="1"> JavaScript </option>
+                        <option value="2"> React </option>
+                        <option value="3"> Node </option>
+                    </select>
+                </div>
+                <p> Indicação: </p>
+                <div>
+                <select name="indi" id="indi">
+                    <option value="1"> Colaborador Interno </option>
+                    <option value="2"> Instituição onde estuda </option>
+                    <option value="3"> Sem Indicação </option>
+                </select>
+                </div>
+                <div>
+                    <button onclick="calcular()"> CALCULAR </button>
+                </div>
+                <div id="negativo"></div>
+                <div id="resultado"></div>
+            </div>
+        </body>
+    </html>
